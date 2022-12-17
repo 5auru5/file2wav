@@ -1,9 +1,5 @@
 import sys
 import wave
-import struct
-import cgi
-#import argparse
-#import textwrap
 def main():
     with open(sys.argv[1], "rb") as inp_f: #opens given file
         data = inp_f.read()
